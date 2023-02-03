@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,91 @@
     <title>Razorpay</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+    </style>
+        
 
     <!-- Imported Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap"
-          rel="stylesheet"
-        />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
 </head>
+
 <body>
-    
+    <div class="overflow-x-hidden relative w-full">
+        <!-- Adding navigation bar -->
+        <nav class="bg-deepBlue">
+            <div class="relative flex mx-auto w-[1080px] items-center justify-between">
+                <a href="#" class="cursor-pointer py-7 pr-7">
+                    <img  src="./images/logo.svg" alt="" width="125px" height="30px">
+                </a>
+                <ul class="relative flex items-center  space-x-6">
+
+                    <li class="relative py-7 text-white font-mullish hover:text-lightBlue space-y-3
+                    transition-all duration-200 group opacity-80">
+                        <a href="">Payments</a>
+                        <div
+                            class="absolute w-full h-1 b-0 bg-lightBlue transition-all duration-200 hidden group-hover:block">
+                        </div>
+                    </li>
+                    <li class="relative py-7 text-white font-mullish hover:text-lightBlue space-y-3
+                    transition-all duration-200 group opacity-80">
+                        <a href="">Banking</a>
+                        <div
+                            class="absolute w-full h-1 b-0 bg-lightBlue transition-all duration-200 hidden group-hover:block">
+                        </div>
+                    </li>
+                    <li class="relative py-7 text-white font-mullish hover:text-lightBlue space-y-3
+                    transition-all duration-200 group opacity-80">
+                        <a href="">Line of Credit</a>
+                    </li>
+                    <li class="relative py-7 text-white font-mullish hover:text-lightBlue space-y-3
+                    transition-all duration-200 group opacity-80">
+                        <a href="">Payroll</a>
+                    </li>
+                    <li class="relative py-7 text-white font-mullish hover:text-lightBlue space-y-3
+                    transition-all duration-200 group opacity-80">
+                        <a href="">Resources</a>
+                        <div
+                            class="absolute w-full h-1 b-0 bg-lightBlue transition-all duration-200 hidden group-hover:block">
+                        </div>
+                    </li>
+                    <li class="relative py-7 text-white font-mullish hover:text-lightBlue space-y-3
+                    transition-all duration-200 group opacity-80">
+                        <a href="">Support</a>
+                        <div
+                            class="absolute w-full h-1 b-0 bg-lightBlue transition-all duration-200 hidden group-hover:block">
+                        </div>
+                    </li>
+                    <li class="relative py-7 text-white font-mullish hover:text-lightBlue space-y-3
+                    transition-all duration-200 group opacity-80">
+                        <a href="">Pricing</a>
+                        <div
+                            class="absolute w-full h-1 b-0 bg-lightBlue transition-all duration-200 hidden group-hover:block">
+                        </div>
+                    </li>
+
+                </ul>
+                <!-- Adding last div of navigation bar having flag and two buttons -->
+                <div class="relative flex space-x-6 ">
+                    <img src="./images/india-flag.svg" alt="" width="28px" height="20px">
+                    <button class="px-5 py-3 opacity-80 border-lightBlue border rounded-sm flex items-center justify-center font-mullish text-sm text-white font-semibold">
+                        Log In
+                    </button>
+
+                    <button class="flex justify-center opacity-95 font-mullish items-center w-[120px] border-lightBlue bg-slate-50 text-lightBlue">
+                        Sign Up
+                        <svg viewBox="0 0 24 24" focusable="false" class="w-[14px] h-[14px] ml-3">
+                            <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z">
+                            </path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </div>
 </body>
+
 </html>
